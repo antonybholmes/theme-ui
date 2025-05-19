@@ -47,10 +47,12 @@
     "./components/dialog/switch-prop-row": "./dist/components/dialog/switch-prop-row.js",
     "./components/dialog/text-prop-row": "./dist/components/dialog/text-prop-row.js",
     "./components/dialog/textarea-prop-row": "./dist/components/dialog/textarea-prop-row.js",
+    "./components/dialog-block": "./dist/components/dialog-block.js",
     "./components/double-input-2": "./dist/components/double-input-2.js",
     "./components/double-input": "./dist/components/double-input.js",
     "./components/double-numerical-input": "./dist/components/double-numerical-input.js",
     "./components/draggable-list/draggable-list-framer": "./dist/components/draggable-list/draggable-list-framer.js",
+    "./components/fg-bg-color-picker": "./dist/components/fg-bg-color-picker.js",
     "./components/file-drop-panel": "./dist/components/file-drop-panel.js",
     "./components/file-dropzone-panel": "./dist/components/file-dropzone-panel.js",
     "./components/icons/animated-spinner": "./dist/components/icons/animated-spinner.js",
@@ -422,8 +424,6 @@
     "./providers/search-provider": "./dist/providers/search-provider.js",
     "./providers/selection-range": "./dist/providers/selection-range.js",
     "./stores/search-filter-store": "./dist/stores/search-filter-store.js",
-    "./stores/venn-circle-store": "./dist/stores/venn-circle-store.js",
-    "./stores/venn-store": "./dist/stores/venn-store.js",
     "./theme": "./dist/theme.js"
   },
   "dependencies": {
