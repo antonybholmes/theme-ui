@@ -2,9 +2,9 @@ import { TEXT_CANCEL, TEXT_SAVE_AS } from '@/consts'
 import {
   OKCancelDialog,
   type IModalProps,
-} from '@antonybholmes/theme-ui/components/dialog/ok-cancel-dialog'
+} from '@components/dialog/ok-cancel-dialog'
 
-import { VCenterRow } from '@antonybholmes/theme-ui/components/layout/v-center-row'
+import { VCenterRow } from '@components/layout/v-center-row'
 import { useState } from 'react'
 import { Input } from './shadcn/ui/themed/input'
 import { Label } from './shadcn/ui/themed/label'

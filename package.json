@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && tsc-alias && node scripts/generate-exports.mjs",
+    "build": "tsup   && node scripts/generate-exports.mjs",
     "format": "prettier --plugin-search-dir=. --write \"src/**/*.{ts,tsx,js,mjs,svelte,astro}\""
   },
   "keywords": [],
@@ -24,6 +24,7 @@
     "ts-jest": "^29.3.4",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.16",
+    "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   },
   "exports": {
