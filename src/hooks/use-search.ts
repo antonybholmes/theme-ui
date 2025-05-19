@@ -1,11 +1,11 @@
 import { create } from 'zustand'
 
-// export interface ISearch {
-//   caseSensitive: boolean
-//   matchEntireCell: boolean
-//   keepOrder: boolean
-//   ids: string[]
-// }
+export interface ISearch {
+  caseSensitive: boolean
+  matchEntireCell: boolean
+  keepOrder: boolean
+  ids: string[]
+}
 
 // export const DEFAULT_SEARCH: ISearch = {
 //   caseSensitive: false,
