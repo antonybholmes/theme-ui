@@ -6,9 +6,9 @@ const srcDir = path.resolve('src')
 const distDir = path.resolve('dist')
 const packageJsonPath = path.resolve('package.json')
 
-function findTSModules(dir: string, relativeRoot = ''): string[] {
+function findTSModules(dir, relativeRoot = '') {
   const items = fs.readdirSync(dir, { withFileTypes: true })
-  let paths: string[] = []
+  let paths = []
 
   for (const item of items) {
     const relPath = path.join(relativeRoot, item.name)
@@ -31,7 +31,7 @@ function findTSModules(dir: string, relativeRoot = ''): string[] {
 }
 
 const modulePaths = findTSModules(srcDir)
-const exportsMap: Record<string, string> = {}
+const exportsMap = {}
 
 for (const p of modulePaths) {
   exportsMap[`./${p}`] = `./dist/${p}.js`
