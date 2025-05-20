@@ -8,7 +8,9 @@ export default defineConfig({
   format: ['esm'],
   clean: true,
   splitting: false,
-
+  sourcemap: true,
+  bundle: false,
+  minify: true,
   //   esbuildOptions(options) {
   //     options.alias = {
   //       '@': './src',
